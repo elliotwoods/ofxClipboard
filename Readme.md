@@ -26,7 +26,9 @@ myTextString = ofxClipboard::paste();
 Credits
 -------
 
-Based on information in the forum post [http://forum.openframeworks.cc/t/drag-amp-drop-copy-amp-paste/2296]. Thanks to:
+Developed based on information in [this forum post](http://forum.openframeworks.cc/t/drag-amp-drop-copy-amp-paste/2296) thanks to:
 
 * ascorbin
 * gameover (hack?)
+
+ofxClipboard is distrubuted under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
