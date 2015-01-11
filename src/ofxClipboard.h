@@ -3,6 +3,6 @@
 using namespace std;
 
 namespace ofxClipboard {
-	bool copy(const string & content);
+	void copy(const string & content);
 	string paste();
 }

@@ -36,10 +36,7 @@ void ofApp::keyPressed(int key){
 		{
 			// COPY
 			string newClipboardContent = ofSystemTextBoxDialog("Set the clipboard text:");
-			bool success = ofxClipboard::copy(newClipboardContent); //<<<<<<<<<<<<<<<<<
-			if (!success) {
-				ofSystemAlertDialog("Copy failed! (sorry)");
-			}
+			ofxClipboard::copy(newClipboardContent); //<<<<<<<<<<<<<<<<<
 
 			break;
 		}
