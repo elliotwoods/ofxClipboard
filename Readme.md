@@ -11,15 +11,11 @@ Currently supports :
 Usage
 -----
 
-### Copy :
-
 ```c++
+// Copy
 ofxClipboard::copy(myTextString);
-```
 
-### Paste :
-
-```c++
+// Paste
 myTextString = ofxClipboard::paste();
 ```
 
