@@ -2,6 +2,8 @@
 #include "ofAppRunner.h"
 #include "ofAppGLFWWindow.h"
 
+#include <GLFW/glfw3.h>
+
 namespace ofxClipboard {
 	string staticClipboard;
 
